@@ -9,7 +9,7 @@ A brief report detailing the training process and personal observations is in pr
 On the left is the original image, and on the right is the image reconstructed by the VAE. Similarly to the VAE-123 model from the paper, we see that the VAE focuses on the images while the background is blurred.
 
 <div>
-	<img src='/images/recon_one.png'>
+ <img src='/images/recon_one.png'>
   <img src='/images/recon_two.png'>
   <img src='/images/recon_three.png'>
   <img src='/images/recon_four.png'>
