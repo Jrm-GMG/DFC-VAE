@@ -4,7 +4,7 @@ The goal of this paper is to introduce the use of a pre-trained deep convolution
 
 A brief report detailing the training process and personal observations is in progress.
 
-Face reconstruction:
+#Face reconstruction:
 
 On the left is the original image, and on the right is the image reconstructed by the VAE. Similarly to the VAE-123 model from the paper, we see that the VAE focuses on the images while the background is blurred.
 
@@ -15,7 +15,7 @@ On the left is the original image, and on the right is the image reconstructed b
   <img src='/images/recon_four.png'>
 </div>
 
-Faces generation:
+#Faces generation:
 
 We can generate new faces by sampling a vector from the prior distribution of the latent space and passing it through the decoder
 
@@ -24,7 +24,7 @@ We can generate new faces by sampling a vector from the prior distribution of th
 	<img src='/images/generation1.png'>
 </div>
 
-Adding smile to faces:
+#Adding smile to faces:
 
 With labeled attributes, we can identify specific feature vectors in the latent space. For example, to create a 'smiling' vector, we compute the average vector of smiling images and subtract the average vector of non-smiling images. Adding this resulting vector to the latent representation of a non-smiling face and passing it through the decoder enables us to generate an image of the same face, now with a smile.
 
