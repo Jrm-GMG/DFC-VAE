@@ -27,7 +27,8 @@ With labeled attributes, we can identify specific feature vectors in the latent 
 
 <div>
   <img src='/images/one.png'>
+<img src='/images/four.png'>
   <img src='/images/two.png'>
   <img src='/images/three.png'>
-  <img src='/images/four.png'>
+  
 </div>
