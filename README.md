@@ -22,6 +22,7 @@ We can generate new faces by sampling a vector from the prior distribution of th
 </div>
 
 Adding smile to faces:
+
 With labeled attributes, we can identify specific feature vectors in the latent space. For example, to create a 'smiling' vector, we compute the average vector of smiling images and subtract the average vector of non-smiling images. Adding this resulting vector to the latent representation of a non-smiling face and passing it through the decoder enables us to generate an image of the same face, now with a smile.
 
 <div>
